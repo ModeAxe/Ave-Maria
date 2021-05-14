@@ -8,8 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Clouds
-  m_Shader: {fileID: -6465566751694194690, guid: 640698e2a58a56d4fb2fcbef69c7ced9,
-    type: 3}
+  m_Shader: {fileID: 4800000, guid: 2631b1f760c02824a8b3d96ca2c32ddb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -21,17 +20,22 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
+    - Vector1_2A342589: 0.7
     - Vector1_2DEB2D7D: 0.01
     - Vector1_508E7203: 1
     - Vector1_5595CFA0: 1
     - Vector1_71A7FF5A: 0.01
     - Vector1_7CF2CE30: 0
-    - Vector1_A79FC1E6: 50
+    - Vector1_A79FC1E6: 33.3
     - Vector1_C5E85E8B: 40
-    - Vector1_DED0BDAF: 1
-    - Vector1_E6FEB89A: 20
+    - Vector1_C62B4221: 4.05
+    - Vector1_D22E6486: 0
+    - Vector1_DED0BDAF: 2.3
+    - Vector1_E25D06C1: 139.1
+    - Vector1_E6FEB89A: 13.1
+    - Vector1_F1F4F87E: 219.6
     m_Colors:
-    - Color_36BC9028: {r: 1, g: 0.8050772, b: 0.5424528, a: 0}
-    - Color_9FA214E7: {r: 1, g: 1, b: 1, a: 0}
+    - Color_36BC9028: {r: 0.07058824, g: 0.02745098, b: 0.2, a: 0}
+    - Color_9FA214E7: {r: 0.85882354, g: 0.27058825, b: 0.21568628, a: 0}
     - Vector4_22211085: {r: 0, g: 1, b: -1, a: 1}
-    - Vector4_EA3B081F: {r: 1, g: 0, b: 0, a: 62.7}
+    - Vector4_EA3B081F: {r: 1, g: 0, b: 0, a: 90}
