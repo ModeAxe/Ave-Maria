@@ -318,8 +318,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 3877430794556229445, guid: 7b7aa3a59c157c7468dd869b8c22c8c5,
-        type: 3}
+      objectReference: {fileID: 2100000, guid: 923643f06042d66438f24f7699ec5aeb, type: 2}
     - target: {fileID: 919132149155446097, guid: 92e645a43b9707a43bafb39b15403b26,
         type: 3}
       propertyPath: m_Name
@@ -1569,8 +1568,12 @@ MonoBehaviour:
   speed: 3
   animator: {fileID: 1509034819}
   rb: {fileID: 555039507}
-  ForceY: 50000
-  ForceZ: 1000
+  ForceYMin: 20000
+  ForceYMax: 50000
+  ForceXMin: 0
+  ForceXMax: 5000
+  ForceZMax: 100
+  ForceZMin: 10000
 --- !u!136 &1509034821
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -31,7 +31,7 @@ public class Character : MonoBehaviour
     void Update()
     {
         if(running)
-            transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z + Time.deltaTime * speed);
+            transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z + Time.deltaTime * -speed);
         
     }
 
@@ -41,7 +41,7 @@ public class Character : MonoBehaviour
         {
             animator.enabled = false;
             running = false;
-            rb.AddForce(new Vector3(Random.Range(ForceXMin, ForceXMax), Random.Range(ForceYMin, ForceYMax), Random.Range(ForceZMin, ForceZMax)));
+            rb.AddForce(new Vector3(Random.Range(ForceXMin, ForceXMax), Random.Range(ForceYMin, ForceYMax), Random.Range(-ForceZMin, -ForceZMax)));
         }
     }
     void fly()
