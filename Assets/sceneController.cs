@@ -15,6 +15,7 @@ public class sceneController : MonoBehaviour
 		currentCam = 0;
 		setCam(currentCam);
 		spawnMan();
+		Time.timeScale = 0.5f;
 	}
 
 	// Update is called once per frame
