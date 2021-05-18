@@ -32,6 +32,9 @@ public class Character : MonoBehaviour
     {
         if(running)
             transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.z + Time.deltaTime * -speed);
+        if (rb.transform.position.z < -14)
+            Destroy(this.gameObject);
+
         
     }
 
